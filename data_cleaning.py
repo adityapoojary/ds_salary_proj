@@ -59,4 +59,4 @@ df['Excel_yn'] = df['Job Description'].apply(lambda x: 1 if 'excel' in x.lower()
 print(df.Excel_yn.value_counts())
 
 df_out = df.drop(['index'],axis = 1)
-df.to_csv('salary_cleaned.csv')
+df.to_csv('salary_cleaned.csv',index = False)
