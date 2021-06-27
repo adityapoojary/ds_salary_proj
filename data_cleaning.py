@@ -8,7 +8,7 @@ Created on Fri Jun 25 23:33:06 2021
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('Uncleaned_DS_jobs.csv')
+df = pd.read_csv('glassdoor_jobs.csv')
 
 # AVG SALARY
 df['hourly'] = df['Salary Estimate'].apply(lambda x: 1 if 'per hour' in x.lower() else 0)
