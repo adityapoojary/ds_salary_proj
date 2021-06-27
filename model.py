@@ -14,7 +14,7 @@ df = pd.read_csv('edu_data.csv')
 # choose relevant columns
 
 df_model = df[['Rating','Size','Type of ownership', 'Industry', 'Sector', 'Revenue',
-        'avg_salary','num_comp','job_state', 'same_state', 'age', 'python_yn',
+        'avg_salary','hourly','employer_provided','num_comp','job_state', 'same_state', 'age', 'python_yn',
        'SparkR_yn', 'aws_yn', 'Excel_yn','seniority','desc_len','job_simp']]
 
 # get dummy variables
