@@ -35,11 +35,14 @@ Data Colelcted needed to be cleaned so that it was usable for our model. The fol
 *	Column for description length 
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights:
 
 ![alt text](https://github.com/adityapoojary/ds_salary_proj/blob/master/position_salary.png "Salary by Position")
+
 ![alt text](https://github.com/adityapoojary/ds_salary_proj/blob/master/location.png "Job Opportunities by State")
+
 ![alt text](https://github.com/adityapoojary/ds_salary_proj/blob/master/correlation.png "Correlations")
+
 ![alt text](https://github.com/adityapoojary/ds_salary_proj/blob/master/industry.png "Job Opportunities by Industry")
 
 ## Model Building 
