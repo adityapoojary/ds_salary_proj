@@ -61,7 +61,3 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Random Forest** : MAE = 10.93
 *	**Linear Regression**: MAE = 19.37
 *	**Ridge Regression**: MAE = 20.08
-
-## Productionization 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
-
